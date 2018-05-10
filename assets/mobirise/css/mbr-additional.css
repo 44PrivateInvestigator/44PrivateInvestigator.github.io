@@ -21,10 +21,10 @@ body {
 }
 .display-1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-size: 3.2rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 5.12rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -61,9 +61,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.56rem;
+    font-size: calc( 1.77rem + (3.2 - 1.77) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.77rem + (3.2 - 1.77) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.84rem;
@@ -1754,6 +1754,8 @@ body {
   color: #767676 !important;
 }
 .cid-qRy8eNbeNs {
+  padding-top: 105px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/private-detective-pakistan1-1-2000x1013.jpg");
 }
 .cid-qRy8eNbeNs .mbr-text,
@@ -3054,7 +3056,7 @@ body {
 }
 .cid-qRyaRXcAGB .price-figure {
   font-weight: 700;
-  color: #232323;
+  color: #f90808;
 }
 .cid-qRyaRXcAGB .price-value {
   font-weight: 700;
@@ -3064,6 +3066,9 @@ body {
   .cid-qRyaRXcAGB .price-figure {
     font-size: 4.25rem;
   }
+}
+.cid-qRyaRXcAGB .plan-title {
+  color: #149dcc;
 }
 .cid-qRyaUsaONZ {
   padding-top: 90px;
@@ -3105,12 +3110,12 @@ body {
 .cid-qRyaUsaONZ hr {
   margin: 2rem 0;
 }
-.cid-qRyaYsUzqw {
+.cid-qRyF5uo0dx {
   padding-top: 60px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/mbr-1618x1080.jpg");
+  background-image: url("../../../assets/images/mbr-1516x1080.jpg");
 }
-.cid-qRyaYsUzqw H3 {
+.cid-qRyF5uo0dx H3 {
   color: #ffffff;
 }
 .cid-qRyb53VEZs {
